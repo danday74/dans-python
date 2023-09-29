@@ -77,6 +77,7 @@ def program5():
     print(f'\nRunning program 01_05')
 
     # TODO: Code this, almost identical to program1 but must use a while loop instead of a for loop
+    # Note that program6 is very similar to program3
 
     # Example while loop
     i = 0
