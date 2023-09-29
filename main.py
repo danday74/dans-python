@@ -30,6 +30,28 @@ def program2():
 def program3():
     print(f'\nRunning program 01_03')
 
+    value1 = ''
+    value1isinteger = False
+    while not value1isinteger:
+        value1 = input('\nPlease input your first integer: ')
+        value1isinteger = value1.isdigit()
+
+    value2 = ''
+    value2isinteger = False
+    while not value2isinteger:
+        value2 = input('\nPlease input your second integer: ')
+        value2isinteger = value2.isdigit()
+
+    print(f'\nThe first number you input was: {value1}')
+    print(f'\nThe second number you input was: {value2}')
+
+    if value1 > value2:
+        print(f'\nThe first number {value1} is greater than the second number {value2}')
+    elif value1 < value2:
+        print(f'\nThe first number {value1} is less than the second number {value2}')
+    else:
+        print(f'\nThe first number {value1} is equal to the second number {value2}')
+
 
 def program4():
     print(f'\nRunning program 01_04')
