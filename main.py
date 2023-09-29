@@ -56,6 +56,22 @@ def program3():
 def program4():
     print(f'\nRunning program 01_04')
 
+    print(f'\nEvery integer from 0 to 9 inclusive')
+    for i in range(10):
+        print(f'\n{i}')
+
+    print(f'\nEvery integer from 5 to 30 inclusive')
+    for i in range(5, 31):
+        print(f'\n{i}')
+
+    print(f'\nEvery odd integer from 1 to 20 inclusive')
+    for i in range(1, 21, 2):
+        print(f'\n{i}')
+
+    print(f'\nEvery integer from -100 to -80 inclusive')
+    for i in range(-100, -79):
+        print(f'\n{i}')
+
 
 def program5():
     print(f'\nRunning program 01_05')
