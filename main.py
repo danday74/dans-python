@@ -1,6 +1,6 @@
 def program1():
 
-    print(f'Running program 01_01')
+    print(f'\nRunning program 01_01')
 
     count = 3
     values = []
@@ -21,19 +21,22 @@ def program1():
 
 
 def program2():
-    print(f'Running program 01_02')
+    print(f'\nRunning program 01_02')
+
+    name = input('Please input your name: ')
+    print(f'Hello World. This program was written by {name} and it works perfectly.')
 
 
 def program3():
-    print(f'Running program 01_03')
+    print(f'\nRunning program 01_03')
 
 
 def program4():
-    print(f'Running program 01_04')
+    print(f'\nRunning program 01_04')
 
 
 def program5():
-    print(f'Running program 01_05')
+    print(f'\nRunning program 01_05')
 
 
 if __name__ == '__main__':
@@ -51,4 +54,4 @@ if __name__ == '__main__':
     elif program == '5':
         program5()
     else:
-        print(f'Unrecognised program')
+        print(f'\nUnrecognised program')
